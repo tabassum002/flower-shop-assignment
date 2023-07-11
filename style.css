@@ -1,6 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family:'Cormorant', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1{
@@ -69,6 +72,8 @@ background-size: cover;
    font-weight: 800;
    line-height: normal;
    text-align: center;
+   margin-top: 20px;
+   margin-bottom: 40px;
 }
 
 .notes{
@@ -79,9 +84,10 @@ background-size: cover;
    font-style: normal;
    font-weight: 400;
    line-height: 30px;
-   margin-top: 30px;
-   margin-left: 35%;
+   margin-top: 20px;
+   margin-left: 25%;
    width: 600px;
+   margin-bottom: 60px;
 }
 
 .title{
@@ -93,19 +99,19 @@ background-size: cover;
 .rec-flower{
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     margin: auto;
-    gap: 10px;
+    gap: 0.5px;
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0 rgba(229, 84, 115, 0.10);
 }
 
-/* .flower2, .flower3, .flower4{ */
-/* padding: 5px; */
-/* margin-right: 5px; */
-/* gap: 5px; */
-/*  */
-/* } */
+.flower2, .flower3, .flower4{
+ padding: 5px;
+ margin-right: 5px;
+ gap: 5px; 
+
+}
 
 .flower2 {
     border-radius: 300px 300px 0px 0px;
@@ -120,6 +126,18 @@ background-color: rgba(5, 151, 160, 0.15);
     border-radius: 300px 300px 0px 0px;
 background-color: rgba(71, 125, 17, 0.15);
 }
+
+.block{
+    display: flex;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 .images{
     width: 1400px;
@@ -326,7 +344,40 @@ margin-top: 50px;
 margin-right: 50px;
 }
 
+#abou{
+    display: flex;
+    text-align: center;
 
+}
+
+#brand{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: brown;
+    background-color: rgb(142, 89, 21);
+}
+
+#cheer{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    color: cadetblue;
+}
 
 
 
